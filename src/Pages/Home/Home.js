@@ -1,13 +1,21 @@
-import React from 'react'
-import Navbar from './Components/Navbar/Navbar'
-import Masthead from './Components/Masthead/Masthead'
+import React from "react";
+import Navbar from "./Components/Navbar/Navbar";
+import Masthead from "./Components/Masthead/Masthead";
+
+import proPic from "../../Images/Masthead/avataaars.svg"
+import About from "./Components/About/About";
+import Interests from "./Components/Interests/Interests";
+import Blogs from "./Components/Blogs/Blogs";
 function Home() {
   return (
-    <div>
-        <Navbar/>
-        <Masthead/>
+    <div className=" font-graphik flex flex-col ">
+      <Navbar />
+      <Masthead image={proPic}/>
+      <About/>
+      <Interests/>
+      <Blogs/>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

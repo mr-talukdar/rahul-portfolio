@@ -5,11 +5,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        usm:'0.7rem'
+      },
       fontFamily: {
         graphik: ["Graphik", "sans-serif"],
       },
       colors: {
         secondary:"#2c3e50",
+        primary:"#1abc9c",
+        textMain:"333333"
       },
       screens: {
         small: { max: "400px" },

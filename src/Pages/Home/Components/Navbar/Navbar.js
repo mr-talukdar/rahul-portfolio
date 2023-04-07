@@ -10,7 +10,7 @@ function Navbar() {
     setActive(!active);
   };
   return (
-    <div className="bg-secondary uppercase font-bold text-white fixed w-full flex justify-between p-4 items-center">
+    <div className="bg-secondary uppercase fixed font-bold z-0 text-white  w-full flex justify-between p-4 items-center">
       <div className="text-2xl ">
         <a href="/">Rahul Talukdar</a>
       </div>
