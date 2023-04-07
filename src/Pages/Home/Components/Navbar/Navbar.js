@@ -3,7 +3,6 @@ import NavItem from "./Components/NavItem";
 import MenuItem from "./Components/MenuItem";
 import { MenuOutlined } from "@ant-design/icons";
 
-
 function Navbar() {
   const [active, setActive] = useState(false);
   const showMenuHandler = () => {
@@ -17,14 +16,14 @@ function Navbar() {
       </div>
       <nav>
         <div className=" right-6  md:hidden">
-        <MenuOutlined onClick={showMenuHandler}/>
+          <MenuOutlined onClick={showMenuHandler} />
         </div>
         <ul className=" hidden md:flex gap-8 p-6">
           <NavItem text="About" href="#about"></NavItem>
           <NavItem text="Interests" href="#interests"></NavItem>
           <NavItem text="Blogs" href="#blogs"></NavItem>
         </ul>
-        <MenuItem showMenu={showMenuHandler} active={active}/>
+        <MenuItem showMenu={showMenuHandler} active={active} />
       </nav>
     </div>
   );
