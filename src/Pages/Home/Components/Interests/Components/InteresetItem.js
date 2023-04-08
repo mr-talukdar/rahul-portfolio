@@ -1,6 +1,6 @@
 import React from 'react'
 
-function InteresetItem() {
+function InteresetItem(props) {
   return (
     <div>InteresetItem</div>
   )

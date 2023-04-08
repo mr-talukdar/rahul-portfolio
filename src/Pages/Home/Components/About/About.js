@@ -4,13 +4,13 @@ function About() {
   return (
     <div
       id="#about"
-      className='"w-full uppercase flex flex-col h-fit  gap-3 justify-center align-middle '
+      className='"w-full uppercase flex flex-col h-fit pb-5  gap-3 justify-center align-middle snap-always snap-start'
     >
-      <div className=" self-center pt-10 text-3xl font-bold text-secondary">
+      <div className=" self-center pt-10 text-3xl font-bold text-secondary/90">
         About
       </div>
       <img className=" w-40 self-center  " src={lineDiv} alt="linediv" />
-      <div className=" self-center flex flex-col px-2 gap-7 text-lg font-semibold text-secondary">
+      <div className=" self-center flex flex-col px-2 gap-7 text-lg font-semibold text-primary">
         <div className=" w-2/3  self-center text-center  leading-7">
           Hello there, I'm the developer you've been searching for. I'm like a
           superhero, but instead of wearing a cape, I've got a laptop in my
@@ -25,7 +25,7 @@ function About() {
           while I try to fit my oversized ego through the door.
         </div>
       </div>
-      <button className="  border-primary bg-primary w-40 rounded-2xl self-center h-8 font-bold text-white border-2 hover:border-primary hover:bg-white hover:text-secondary">
+      <button className=" bg-secondary/70 w-40 rounded-3xl self-center h-8 font-bold text-white border-2 hover:border-primary hover:bg-white hover:text-secondary">
         Get to Know me!
       </button>
     </div>

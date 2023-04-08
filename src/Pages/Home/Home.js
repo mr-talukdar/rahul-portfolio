@@ -6,14 +6,17 @@ import proPic from "../../Images/Masthead/avataaars.svg"
 import About from "./Components/About/About";
 import Interests from "./Components/Interests/Interests";
 import Blogs from "./Components/Blogs/Blogs";
+import Footer from "./Components/Footer/Footer";
+
 function Home() {
   return (
-    <div className=" font-graphik flex flex-col ">
+    <div className=" font-graphik flex flex-col snap-y snap-mandatory ">
       <Navbar />
       <Masthead image={proPic}/>
       <About/>
       <Interests/>
       <Blogs/>
+      <Footer/>
     </div>
   );
 }

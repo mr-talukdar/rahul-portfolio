@@ -14,7 +14,7 @@ module.exports = {
       colors: {
         secondary:"#2c3e50",
         primary:"#1abc9c",
-        textMain:"333333"
+        textMain:"#333333"
       },
       screens: {
         small: { max: "400px" },
